@@ -1,12 +1,9 @@
 body{
     background-color: #080f25 !important;
-    background-image: url('/img/background.svg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
     margin: 0;
     padding: 0;
     color: white !important;
+    font-family: Arial;
 }
 
 .nav-link{

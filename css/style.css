@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #080f25 !important;
     margin: 0;
     padding: 0;
@@ -6,67 +6,69 @@ body{
     font-family: Arial;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
     font-size: 13pt;
     font-weight: 500;
     padding: 20px !important;
     color: rgb(165, 176, 185) !important;
 }
 
-.navbar .nav-link.active, .nav-link:hover{
+.navbar .nav-link.active,
+.nav-link:hover {
     color: white !important;
 }
 
-.bg-app{
+.bg-app {
     background-color: #080f25 !important;
 }
 
-#logo-image{
+#logo-image {
     max-height: 45px;
     height: 100%;
 }
 
-.logo-image-wrapper{
+.logo-image-wrapper {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
 
-.bold{
+.bold {
     font-weight: bold !important;
-} 
-.fw-500{
+}
+
+.fw-500 {
     font-weight: 500 !important;
 }
 
-.text-secondary{
+.text-secondary {
     color: rgb(101, 105, 110) !important;
 }
 
-.rounded-large{
+.rounded-large {
     border-radius: 1.5rem !important;
 }
 
-.txt-light{
+.txt-light {
     color: rgb(165, 176, 185) !important;
 }
 
-.tech-stack-list li{
+.tech-stack-list li {
     padding-top: .5rem;
     padding-bottom: .5rem;
     font-weight: 500;
 }
 
-.experience-level{
+.experience-level {
     display: flex;
     align-items: center;
     padding-top: .5rem;
 }
 
-.experience-level .line{
+.experience-level .line {
     height: 8px;
     width: 35px;
     margin-right: .5rem;
@@ -75,9 +77,25 @@ body{
 }
 
 @media only screen and (max-width: 850px) {
-    h2{
+    h2 {
         text-align: center;
-    }.navbar-nav{
+    }
+
+    .navbar-nav {
         background-color: #101418 !important;
     }
-  }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1;
+    border-radius: 2rem
+}

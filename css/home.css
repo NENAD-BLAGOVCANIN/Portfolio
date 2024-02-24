@@ -5,4 +5,12 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
-  }
+}
+
+.company-logo{
+    max-width: 85px;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
